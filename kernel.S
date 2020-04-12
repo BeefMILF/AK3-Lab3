@@ -33,7 +33,6 @@ __kernel_reset__:
     // (a - b) * 3 + 2^c
     sub r0, r1
     mla r3, r0, r4, r3
-	mul r3, r2
     
 	ldr r0, =final
 	bl dbgput

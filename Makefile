@@ -8,7 +8,7 @@ BOARD ?= STM32F4-Discovery
 MCU=STM32F407VG
 TARGET=firmware
 CPU_CC=cortex-m4
-TCP_ADDR=1235
+TCP_ADDR=1234
 #################
 # CFLAGS
 CFLAGS = -O0 -g3 -Wall
